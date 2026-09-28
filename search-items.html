@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Search Items | FindIt</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="system-body">
+<aside class="sidebar" id="sidebar">
+  <a class="side-brand" href="dashboard.html">
+    <img src="assets/logo.png" alt="FindIt">
+    <strong>FindIt</strong></a><nav class="side-nav">
+      <a class="side-link " href="dashboard.html">Dashboard</a>
+      <a class="side-link " href="lost-items.html">Lost Items</a>
+      <a class="side-link " href="found-items.html">Found Items</a>
+      <a class="side-link active" href="search-items.html">Search Items</a><a class="side-link " href="claims.html">Claims</a>
+      <a class="side-link " href="profile.html">Profile</a>
+      </nav>
+      <a class="logout" href="index.html">Logout</a>
+      </aside>
+<main class="system-main">
+  <button class="mobile-side-btn" id="sideToggle">☰</button>
+<section class="system-section active-section">
+  <div class="section-head">
+    <div>
+      <h1>Search Items</h1>
+      <p>Look up anything reported lost, found, or returned.</p>
+      </div>
+      </div>
+<div class="search-box main-search">
+  <span>⌕</span>
+  <input type="search" placeholder="Search item name, location, or category..." data-live-search=".search-card">
+  <button>×</button>
+  </div>
+<div class="filter-row">
+  <button class="filter active">All Items</button>
+  <button class="filter">Lost</button>
+  <button class="filter">Found</button>
+  <button class="filter">Returned</button>
+  </div>
+<div class="item-grid">
+  <article class="item-card search-card">
+    <img src="assets/umbrella.jpg" alt="Pink Umbrella">
+    <div class="item-info">
+      <span class="badge found">Found</span>
+      <h3>Pink Umbrella</h3>
+      <p>Library</p>
+      <small>Sept 4, 2026</small>
+      <a class="small-btn" href="item-details.html">View Details</a>
+      </div>
+      </article>
+      <article class="item-card search-card">
+        <img src="assets/keys.jpg" alt="Set of House Keys">
+        <div class="item-info">
+          <span class="badge found">Found</span>
+          <h3>Set of House Keys</h3>
+          <p>Theater</p>
+          <small>Sept 30, 2026</small>
+          <a class="small-btn" href="item-details.html">View Details</a>
+          </div>
+          </article>
+          <article class="item-card search-card">
+            <img src="assets/lanyard.jpg" alt="ICCT Student ID">
+            <div class="item-info">
+              <span class="badge lost">Lost</span>
+              <h3>ICCT Student ID</h3>
+              <p>Room B4.44</p>
+              <small>Sept 14, 2026</small>
+              <a class="small-btn" href="item-details.html">View Details</a>
+              </div>
+              </article>
+              <article class="item-card search-card">
+                <img src="assets/tumbler.jpg" alt="Blue Tumbler">
+                <div class="item-info">
+                  <span class="badge lost">Lost</span>
+                  <h3>Blue Tumbler</h3>
+                  <p>Gym</p>
+                  <small>Sept 6, 2026</small>
+                  <a class="small-btn" href="item-details.html">View Details</a>
+                  </div>
+                  </article>
+                  <article class="item-card search-card">
+                    <img src="assets/earbuds.jpg" alt="Earphone (White case)">
+                    <div class="item-info">
+                      <span class="badge returned">Returned</span>
+                      <h3>Earphone (White case)</h3>
+                      <p>Comlab B4.22</p>
+                      <small>Sept 5, 2026</small>
+                      <a class="small-btn" href="item-details.html">View Details</a>
+                      </div>
+                      </article>
+                      </div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

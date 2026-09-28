@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Message Owner | FindIt</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="system-body">
+<aside class="sidebar" id="sidebar">
+  <a class="side-brand" href="dashboard.html">
+    <img src="assets/logo.png" alt="FindIt">
+    <strong>FindIt</strong>
+    </a>
+    <nav class="side-nav">
+      <a class="side-link " href="dashboard.html">Dashboard</a>
+      <a class="side-link " href="lost-items.html">Lost Items</a>
+      <a class="side-link " href="found-items.html">Found Items</a>
+      <a class="side-link " href="search-items.html">Search Items</a>
+      <a class="side-link " href="claims.html">Claims</a>
+      <a class="side-link " href="profile.html">Profile</a>
+      </nav>
+      <a class="logout" href="index.html">Logout</a>
+      </aside>
+<main class="system-main">
+  <button class="mobile-side-btn" id="sideToggle">☰</button>
+<section class="system-section active-section">
+  <div class="section-head">
+    <div>
+      <h1>Message Owner</h1>
+      <p>Send a message about the reported item.</p>
+      </div>
+      </div>
+<div class="message-card">
+  <div class="message-item">
+    <div class="small-item-image">
+      <img src="assets/lanyard.jpg" alt="ICCT Student ID">
+      </div>
+      <div>
+        <span class="badge lost">Lost</span>
+        <h2>ICCT Student ID</h2>
+        <p>Room B4.44 • Sept 14, 2026</p>
+        </div>
+        </div>
+        <hr>
+        <p><strong>To:</strong> Item Owner</p>
+        <p><strong>Item:</strong> ICCT Student ID</p>
+        <label>Your Message<textarea id="ownerMessage" placeholder="Write your message here...">
+        </textarea></label><div class="message-actions">
+          <a class="btn" href="item-details.html">Cancel</a>
+          <button class="btn" id="sendMessageBtn">Send Message</button>
+          </div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

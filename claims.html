@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Claims | FindIt</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="system-body">
+<aside class="sidebar" id="sidebar">
+  <a class="side-brand" href="dashboard.html">
+    <img src="assets/logo.png" alt="FindIt">
+    <strong>FindIt</strong>
+    </a>
+    <nav class="side-nav">
+      <a class="side-link " href="dashboard.html">Dashboard</a>
+      <a class="side-link " href="lost-items.html">Lost Items</a>
+      <a class="side-link " href="found-items.html">Found Items</a>
+      <a class="side-link " href="search-items.html">Search Items</a>
+      <a class="side-link active" href="claims.html">Claims</a>
+      <a class="side-link " href="profile.html">Profile</a>
+      </nav>
+      <a class="logout" href="index.html">Logout</a>
+      </aside>
+<main class="system-main">
+  <button class="mobile-side-btn" id="sideToggle">☰</button>
+<section class="system-section active-section">
+  <div class="section-head">
+    <div>
+      <h1>Claims</h1>
+      <p>Manage your item claim requests.</p>
+      </div>
+      </div>
+<div class="search-box main-search">
+  <span>⌕</span>
+  <input type="search" placeholder="Search claim requests..." data-live-search=".claim-card">
+  <button>×</button>
+  </div>
+<div class="claim-grid">
+<article class="claim-card">
+  <div class="claim-image">
+    <img src="assets/lanyard.jpg" alt="ICCT Student ID">
+    </div>
+    <div class="claim-info">
+      <span class="badge found">Found</span>
+      <h2>ICCT Student ID</h2>
+      <p>Room B4.44 • Sept 14, 2026</p>
+      <span class="claim-status pending">Pending</span>
+      <div class="claim-actions">
+        <button class="claim-btn accept-btn">Accept</button>
+        <button class="claim-btn reject-btn">Reject</button>
+        <a class="claim-btn detail-btn" href="item-details.html">View Details</a>
+        <a class="claim-btn message-btn" href="message-owner.html">Message Owner</a>
+        </div>
+        </div>
+        </article>
+<article class="claim-card">
+  <div class="claim-image">
+    <img src="assets/earbuds.jpg" alt="White Earphone Case">
+    </div>
+    <div class="claim-info">
+      <span class="badge returned">Returned</span>
+      <h2>Earphone (White case)</h2>
+      <p>Comlab B4.22 • Sept 5, 2026</p>
+      <span class="claim-status returned">Returned</span>
+      <div class="claim-actions"><button class="claim-btn accept-btn">Accept</button>
+      <button class="claim-btn reject-btn">Reject</button>
+      <a class="claim-btn detail-btn" href="item-details.html">View Details</a>
+      <a class="claim-btn message-btn" href="message-owner.html">Message Owner</a>
+      </div>
+      </div>
+      </article>
+</div>
+</section>
+</main><script src="script.js"></script>
+</body>
+</html>

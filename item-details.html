@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Item Details | FindIt</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body class="system-body">
+<aside class="sidebar" id="sidebar">
+  <a class="side-brand" href="dashboard.html">
+    <img src="assets/logo.png" alt="FindIt">
+    <strong>FindIt</strong>
+    </a>
+    <nav class="side-nav">
+      <a class="side-link " href="dashboard.html">Dashboard</a>
+      <a class="side-link " href="lost-items.html">Lost Items</a>
+      <a class="side-link " href="found-items.html">Found Items</a>
+      <a class="side-link " href="search-items.html">Search Items</a>
+      <a class="side-link " href="claims.html">Claims</a>
+      <a class="side-link " href="profile.html">Profile</a>
+      </nav>
+      <a class="logout" href="index.html">Logout</a>
+      </aside>
+<main class="system-main">
+  <button class="mobile-side-btn" id="sideToggle">☰</button>
+<section class="system-section active-section">
+  <div class="section-head">
+    <div>
+    <h1>Item Details</h1>
+    <p>Full report information and claim action.</p>
+    </div>
+    </div>
+<div class="item-details-card">
+  <div class="details-image">
+    <img src="assets/lanyard.jpg" alt="ICCT Student ID">
+    </div>
+    <div class="details-info">
+      <span class="badge lost">Lost</span>
+      <h2>ICCT Student ID</h2>
+      <div class="detail-row">
+        <strong>Location</strong>
+        <span>Room B4.44</span>
+        </div>
+        <div class="detail-row">
+          <strong>Date</strong>
+          <span>Sept 14, 2026</span>
+          </div>
+          <div class="detail-row">
+            <strong>Reported by</strong>
+            <span>FindIt User</span>
+            </div>
+            <p class="item-description">ICCT Student ID with photo card. Last seen at Room B4.44.</p>
+            <div class="details-actions">
+              <a class="btn" href="message-owner.html">Message Owner</a>
+              <a class="btn" href="claims.html">This is mine - Claim</a>
+              </div>
+              </div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

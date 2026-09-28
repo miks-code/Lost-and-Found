@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Dashboard | FindIt</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body class="system-body">
+<aside class="sidebar" id="sidebar">
+  <a class="side-brand" href="dashboard.html">
+    <img src="assets/logo.png" alt="FindIt">
+    <strong>FindIt</strong></a>
+    <nav class="side-nav">
+      <a class="side-link active" href="dashboard.html">Dashboard</a><a class="side-link " href="lost-items.html">Lost Items</a><a class="side-link " href="found-items.html">Found Items</a><a class="side-link " href="search-items.html">Search Items</a><a class="side-link " href="claims.html">Claims</a>
+      <a class="side-link " href="profile.html">Profile</a>
+      </nav>
+      <a class="logout" href="index.html">Logout</a>
+      </aside>
+<main class="system-main">
+  <button class="mobile-side-btn" id="sideToggle">☰</button>
+<section class="system-section active-section">
+  <div class="section-head">
+    <div>
+      <h1>Dashboard</h1>
+      <p>Welcome to your FindIt dashboard.</p>
+      </div>
+      </div>
+<div class="stats-grid">
+  <div class="stat-card">
+    <span>Lost items</span>
+    <strong>12</strong>
+    </div>
+    <div class="stat-card">
+      <span>Found items</span>
+      <strong>8</strong>
+      </div><div class="stat-card">
+        <span>Returned</span>
+        <strong>4</strong>
+        </div>
+        </div>
+<div class="panel">
+  <div class="panel-head">
+    <div>
+      <h2>Recently reported items</h2>
+      <p>Latest lost and found reports.</p>
+      </div>
+      <a class="small-btn" href="search-items.html">View all</a>
+      </div>
+      <div class="item-grid compact-grid">
+        <article class="item-card">
+          <img src="assets/umbrella.jpg" alt="Pink Umbrella">
+          <div class="item-info">
+            <span class="badge found">Found</span>
+            <h3>Pink Umbrella</h3>
+            <p>Library</p>
+            <small>Sept 4, 2026</small>
+            <a class="small-btn" href="item-details.html">View Details</a>
+            </div>
+            </article>
+            <article class="item-card">
+              <img src="assets/lanyard.jpg" alt="ICCT Student ID"><div class="item-info">
+                <span class="badge found">Found</span>
+                <h3>ICCT Student ID</h3>
+                <p>Campus</p>
+                <small>Sept 5, 2026</small>
+                <a class="small-btn" href="item-details.html">View Details</a>
+                </div>
+                </article>
+                <article class="item-card">
+                  <img src="assets/tumbler.jpg" alt="Blue Tumbler"><div class="item-info">
+                    <span class="badge lost">Lost</span>
+                    <h3>Blue Tumbler</h3>
+                    <p>Gym</p>
+                    <small>Sept 6, 2026</small>
+                    <a class="small-btn" href="item-details.html">View Details</a>
+                    </div>
+                    </article>
+                    </div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
