@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sign Up | FindIt</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="auth-page">
+<div class="hero-bg">
+</div><div class="hero-overlay">
+</div>
+<header class="public-header">
+  <a class="brand" href="index.html">
+    <img src="assets/logo.png" alt="FindIt">
+    <span>FindIt</span>
+    </a>
+    <nav class="public-nav">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a class="nav-btn login-outline" href="login.html">Login</a>
+      <a class="nav-btn signup-btn active" href="signup.html">Sign Up</a>
+      </nav>
+      </header>
+<main class="auth-center">
+  <form class="auth-card" id="signupForm">
+    <img class="auth-logo" src="assets/logo.png" alt="FindIt">
+    <h1>Create an account</h1>
+    <p>Join FindIt and help reconnect lost belongings.</p>
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name" required>
+<label>Email</label>
+<input type="email" placeholder="user@gmail.com" required>
+<label>Password</label>
+<div class="password-box">
+  <input id="signupPassword" type="password" placeholder="Create a password" required>
+  <button type="button" class="eye-btn" data-target="signupPassword">◉</button>
+  </div>
+<label>Confirm Password</label>
+<div class="password-box">
+  <input id="signupConfirm" type="password" placeholder="Confirm your password" required>
+  <button type="button" class="eye-btn" data-target="signupConfirm">◉</button>
+  </div>
+<button class="dark-btn" type="submit">Create Account</button>
+<p class="switch-auth">Already have an account? <a href="login.html">Login</a></p>
+<p id="signupMessage" class="form-message"></p>
+</form>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

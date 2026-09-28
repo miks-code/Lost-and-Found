@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Report a Found Item | FindIt</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="system-body">
+<aside class="sidebar" id="sidebar">
+  <a class="side-brand" href="dashboard.html">
+    <img src="assets/logo.png" alt="FindIt">
+    <strong>FindIt</strong>
+    </a>
+    <nav class="side-nav">
+      <a class="side-link " href="dashboard.html">Dashboard</a>
+      <a class="side-link " href="lost-items.html">Lost Items</a>
+      <a class="side-link active" href="found-items.html">Found Items</a>
+      <a class="side-link " href="search-items.html">Search Items</a>
+      <a class="side-link " href="claims.html">Claims</a>
+      <a class="side-link " href="profile.html">Profile</a>
+      </nav>
+      <a class="logout" href="index.html">Logout</a>
+      </aside>
+<main class="system-main">
+  <button class="mobile-side-btn" id="sideToggle">☰</button>
+<section class="system-section active-section">
+  <div class="section-head">
+    <div>
+      <h1>Report a Found Item</h1>
+      <p>Provide the details of an item you found.</p>
+      </div>
+      </div>
+      <div class="report-card">
+        <div class="image-upload">
+          <label>Item Image</label>
+          <input type="file" accept="image/*" id="itemPhoto">
+          <div id="imagePreview" class="image-preview">Insert photo</div>
+          <p>Upload a photo of the item.</p>
+          </div>
+          <div class="profile-fields">
+            <label>Item Name<input type="text" placeholder="Example: Student ID">
+            </label>
+            <label>Location<input type="text" placeholder="Example: Room B4.44">
+            </label>
+            <label>Date<input type="date"></label>
+            <label>Category<input type="text" placeholder="Example: Personal Item">
+            </label>
+            <label>Description<textarea placeholder="Describe the item">
+            </textarea>
+            </label>
+            </div>
+            <div class="profile-actions">
+              <button class="btn">Submit Report</button>
+              <a class="btn" href="dashboard.html">Cancel</a>
+              </div>
+              </section>
+              </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

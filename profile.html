@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Profile | FindIt</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body class="system-body">
+<aside class="sidebar" id="sidebar">
+  <a class="side-brand" href="dashboard.html">
+    <img src="assets/logo.png" alt="FindIt">
+    <strong>FindIt</strong>
+    </a>
+    <nav class="side-nav">
+      <a class="side-link " href="dashboard.html">Dashboard</a>
+      <a class="side-link " href="lost-items.html">Lost Items</a>
+      <a class="side-link " href="found-items.html">Found Items</a>
+      <a class="side-link " href="search-items.html">Search Items</a>
+      <a class="side-link " href="claims.html">Claims</a>
+      <a class="side-link active" href="profile.html">Profile</a>
+      </nav>
+      <a class="logout" href="index.html">Logout</a>
+      </aside>
+<main class="system-main">
+  <button class="mobile-side-btn" id="sideToggle">☰</button>
+<section class="system-section active-section">
+  <div class="section-head">
+    <div>
+      <h1>Profile</h1>
+      <p>Manage your FindIt account.</p>
+      </div>
+      </div>
+<div class="profile-card">
+  <div class="profile-top">
+    <div class="profile-avatar" id="profileInitial">M</div>
+    <div>
+      <h2 id="profileName">FindIt User</h2>
+      <p id="profileEmail">user@gmail.com</p>
+      </div>
+      </div>
+<div class="profile-fields">
+  <label>Full Name<input id="profileFullName" value="FindIt User" disabled>
+  </label>
+  <label>Email<input id="profileUserEmail" value="user@gmail.com" disabled>
+  </label>
+  <label>Student ID<input id="profileStudentId" value="CA202400690" disabled>
+  </label>
+  <label>Contact Number<input id="profileContact" value="09XXXXXXXXX" disabled>
+  </label>
+  </div>
+<div class="profile-actions">
+  <button class="btn" id="editProfileBtn">Edit Profile</button>
+  <button class="btn" id="saveProfileBtn">Save Changes</button>
+  </div>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
